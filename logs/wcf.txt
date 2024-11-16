@@ -1,0 +1,259 @@
+[2024-11-06 14:23:28.812] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.10.27
+[2024-11-06 14:23:28.812] [error] [WCF] [spy.cpp::37::InitSpy] 不支持当前版本
+[2024-11-06 14:40:34.414] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.10.27
+[2024-11-06 14:40:34.416] [info] [WCF] [rpc_server.cpp::1010::RunServer] CMD Server listening on tcp://0.0.0.0:10086
+[2024-11-06 14:44:53.948] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.10.27
+[2024-11-06 14:46:04.204] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.10.27
+[2024-11-06 14:47:00.924] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.10.27
+[2024-11-06 14:53:05.818] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.10.27
+[2024-11-06 14:53:05.819] [info] [WCF] [rpc_server.cpp::1010::RunServer] CMD Server listening on tcp://0.0.0.0:10086
+[2024-11-06 14:55:43.891] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.10.27
+[2024-11-06 14:55:43.892] [info] [WCF] [rpc_server.cpp::1010::RunServer] CMD Server listening on tcp://0.0.0.0:10086
+[2024-11-06 14:56:45.425] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.10.27
+[2024-11-06 14:56:45.426] [info] [WCF] [rpc_server.cpp::1010::RunServer] CMD Server listening on tcp://0.0.0.0:10086
+[2024-11-06 15:00:44.972] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.10.27
+[2024-11-06 15:00:44.973] [info] [WCF] [rpc_server.cpp::1010::RunServer] CMD Server listening on tcp://0.0.0.0:10086
+[2024-11-06 15:02:24.883] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.10.27
+[2024-11-06 15:02:49.255] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.10.27
+[2024-11-06 15:04:37.072] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.10.27
+[2024-11-06 15:04:37.073] [info] [WCF] [rpc_server.cpp::1010::RunServer] CMD Server listening on tcp://0.0.0.0:10086
+[2024-11-06 15:08:10.625] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.10.27
+[2024-11-06 15:08:10.626] [info] [WCF] [rpc_server.cpp::1010::RunServer] CMD Server listening on tcp://0.0.0.0:10086
+[2024-11-06 15:14:47.645] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.10.27
+[2024-11-06 15:14:47.646] [info] [WCF] [rpc_server.cpp::1010::RunServer] CMD Server listening on tcp://0.0.0.0:10086
+[2024-11-07 09:08:14.946] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 09:08:14.949] [info] [WCF] [rpc_server.cpp::1008::RunServer] CMD Server listening on tcp://0.0.0.0:10086
+[2024-11-07 09:08:15.494] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-07 09:41:33.989] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 09:42:38.514] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 09:46:36.291] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 09:50:14.354] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 09:54:33.573] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 09:56:29.897] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 09:57:25.488] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 10:04:55.211] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 10:06:51.485] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 10:09:51.553] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 10:11:58.395] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 10:14:56.053] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 10:26:51.722] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 10:28:17.830] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 10:30:21.929] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 10:34:52.985] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 10:44:02.434] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 10:59:32.911] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 11:05:28.047] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 11:06:08.340] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 11:06:44.246] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-07 11:06:49.112] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 11:08:00.291] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 11:09:29.451] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 11:12:03.001] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 11:14:17.352] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 11:15:01.137] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 11:20:27.453] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 11:36:57.851] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 14:24:01.973] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 14:24:01.974] [info] [WCF] [rpc_server.cpp::1008::RunServer] CMD Server listening on tcp://0.0.0.0:10086
+[2024-11-07 14:24:02.484] [error] [WCF] [contact_mgmt.cpp::66::GetContacts] GetContacts failed
+[2024-11-07 14:24:02.514] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-07 14:24:23.527] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-07 14:24:25.542] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-07 14:24:27.559] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-07 14:24:29.574] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-07 14:24:31.590] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-07 14:24:33.606] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-07 14:24:35.621] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-07 14:24:37.637] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-07 14:24:39.653] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-07 14:24:41.667] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-07 14:24:43.683] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-07 14:24:45.699] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-07 14:24:47.715] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-07 14:24:49.731] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-07 14:25:01.094] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 14:25:01.095] [info] [WCF] [rpc_server.cpp::1008::RunServer] CMD Server listening on tcp://0.0.0.0:10086
+[2024-11-07 14:25:01.637] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-07 14:55:23.911] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 15:01:37.104] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 15:05:33.340] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 15:08:43.602] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 15:53:45.733] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 15:54:50.113] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 15:55:46.161] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 16:00:58.764] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 16:01:54.925] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 16:04:37.032] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 16:17:37.803] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 16:31:14.385] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 16:33:10.354] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 17:03:09.437] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 17:04:12.959] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 17:09:46.590] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-07 17:10:53.699] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-07 17:20:46.229] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 17:20:57.255] [error] [WCF] [rpc_server.cpp::225::func_send_txt] Empty message or receiver.
+[2024-11-07 17:22:08.794] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 17:23:50.480] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 17:28:38.702] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 17:31:17.795] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 17:42:31.990] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 17:44:35.285] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 17:45:48.341] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 17:53:29.431] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-07 17:59:28.625] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 09:19:54.799] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 09:22:36.644] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 09:25:00.794] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 09:28:49.196] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 09:31:14.037] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 09:32:42.341] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 09:33:45.727] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 09:35:11.098] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 09:38:58.365] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 09:42:23.100] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 09:54:00.129] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 09:56:33.068] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 10:00:50.544] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 10:13:23.663] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 10:25:40.747] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 10:27:14.829] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 10:30:14.544] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 10:34:59.025] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 10:40:25.279] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 10:41:49.661] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 10:52:29.427] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 14:11:37.216] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 14:13:23.082] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 14:13:23.126] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-08 14:29:03.092] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 14:30:02.376] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 14:30:02.418] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-08 14:30:40.196] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 14:30:40.240] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-08 15:09:04.436] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 15:11:07.873] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 15:11:07.916] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-08 15:20:18.734] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 15:21:13.247] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-08 15:21:22.049] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-08 15:24:14.624] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-09 17:21:51.897] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-09 17:21:51.939] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-09 17:23:48.399] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-09 17:23:48.442] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-09 17:24:40.839] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-09 17:24:40.840] [info] [WCF] [rpc_server.cpp::1008::RunServer] CMD Server listening on tcp://0.0.0.0:10086
+[2024-11-09 17:24:41.395] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-09 17:24:54.697] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-09 17:24:54.699] [info] [WCF] [rpc_server.cpp::1008::RunServer] CMD Server listening on tcp://0.0.0.0:10086
+[2024-11-09 17:24:55.249] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-09 17:27:20.313] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-09 17:27:20.351] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-09 17:28:23.795] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-09 17:28:23.834] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-09 17:29:11.930] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-09 17:29:11.966] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-11 09:49:50.832] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 09:51:11.777] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 09:54:27.747] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 09:54:27.789] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-11 09:57:32.459] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 09:57:32.503] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-11 09:58:47.400] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 09:58:47.444] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-11 10:02:08.265] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 10:02:08.311] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-11 10:02:30.220] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 10:02:30.265] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-11 10:05:07.013] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 10:05:07.058] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-11 10:08:48.541] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 10:09:48.984] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 10:09:49.020] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-11 10:11:40.942] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 10:11:40.981] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-11 10:14:11.805] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 10:16:45.554] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 10:17:35.410] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 10:17:35.461] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-11 10:36:28.936] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 10:36:28.974] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-11 10:45:26.316] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 10:45:26.357] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-11 10:48:48.529] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-11 10:49:33.002] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 10:50:23.693] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 10:50:23.748] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-11 10:50:43.712] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 10:50:43.753] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-11 10:55:00.527] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 10:59:52.960] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 10:59:53.001] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-11 14:37:21.126] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 16:48:20.915] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 16:48:20.917] [info] [WCF] [rpc_server.cpp::1008::RunServer] CMD Server listening on tcp://0.0.0.0:10086
+[2024-11-11 16:48:21.473] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-11 16:49:44.826] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-11 16:49:44.827] [info] [WCF] [rpc_server.cpp::1008::RunServer] CMD Server listening on tcp://0.0.0.0:10086
+[2024-11-11 16:49:45.384] [info] [WCF] [rpc_server.cpp::453::PushMessage] MSG Server listening on tcp://0.0.0.0:10087
+[2024-11-11 17:05:50.701] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-14 17:37:14.136] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-14 17:43:01.925] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-14 17:43:51.846] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-14 17:46:35.962] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-14 17:51:40.506] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-14 17:55:44.836] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 10:38:29.400] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-15 10:39:08.204] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-15 10:39:10.891] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-15 10:39:21.711] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-15 10:39:25.169] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-15 10:39:32.633] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-15 10:39:38.321] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-15 10:40:02.494] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-15 10:40:11.685] [error] [WCF] [rpc_server.cpp::486::PushMessage] msgSock-nng_send: Timed out
+[2024-11-15 10:55:31.959] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 10:56:40.732] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 10:58:47.984] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 11:01:14.840] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 11:02:08.275] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 11:03:03.713] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 11:05:45.714] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 11:07:48.235] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 11:08:56.577] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 11:12:18.028] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 11:14:59.087] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 11:19:25.171] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 11:37:00.185] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 11:38:30.543] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 11:39:56.841] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 11:42:24.630] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 11:44:13.331] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 14:09:47.056] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 14:10:26.076] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 14:14:50.158] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 14:19:31.923] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 14:21:05.763] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 14:21:16.596] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 14:21:26.853] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 14:22:02.567] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 14:24:47.181] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 14:25:57.673] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 14:28:42.722] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 14:32:39.783] [error] [WCF] [rpc_server.cpp::225::func_send_txt] Empty message or receiver.
+[2024-11-15 14:34:32.269] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 14:37:01.316] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 14:38:40.057] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 14:43:19.235] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 14:44:10.030] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 14:45:59.506] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 14:59:14.490] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 14:59:33.581] [error] [WCF] [rpc_server.cpp::225::func_send_txt] Empty message or receiver.
+[2024-11-15 15:01:56.785] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 15:02:09.473] [error] [WCF] [rpc_server.cpp::225::func_send_txt] Empty message or receiver.
+[2024-11-15 15:04:30.507] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 15:11:53.860] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 15:14:19.664] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 15:14:57.770] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25
+[2024-11-15 15:17:19.221] [info] [WCF] [spy.cpp::35::InitSpy] WeChat version: 3.9.11.25

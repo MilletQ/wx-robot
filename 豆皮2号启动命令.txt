@@ -1,0 +1,5 @@
+//启动GPT后台
+Start-Process "python" -ArgumentList "D:\Personal\GitRepository\chat2api\app.py" -WindowStyle Hidden
+
+//启动豆皮2号
+Start-Process "node" -ArgumentList "F:\Users\Administrator\Desktop\gpt-test\app.js" -WindowStyle Hidden
