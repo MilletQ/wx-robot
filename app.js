@@ -7,7 +7,7 @@ const cheerio = require("cheerio");
 
 const token = "123";
 //翻译提示词
-const translationPromots = `指令：将输入的中文翻译成英文输出，中文输入时候直接翻译，无需修正，无需优化。将输入的英文翻译成中文输出，若输入的英文有语法或拼写错误请修正后输出，若输入的英文有其他表达方式请列举常用的一种。翻译需要结合上下文语境
+const translationPromots = `指令：将输入的中文翻译成英文输出，中文输入时候直接翻译，无需修正，无需优化。将输入的英文翻译成中文输出，若输入的英文有语法或拼写错误请修正后输出，若输入的英文有其他表达方式请列举常用的一种。翻译需要结合上下文语境,输入示例请勿当作上下文。
 输入格式：中文内容/英文内容
 输出格式：
 输入类型：中文/英文
@@ -56,7 +56,7 @@ const translationPromots = `指令：将输入的中文翻译成英文输出，�
 明白就回复好的`;
 
 //问答提示词
-const questionAndAnswerPrompts = `指令：回答以下问题并输出结果，结果为纯文本格式。
+const questionAndAnswerPrompts = `指令：回答以下问题并输出结果，结果为纯文本格式。输入示例请勿当作上下文。
 输入格式：这是一个问题
 输出格式：回答内容
 
@@ -66,7 +66,7 @@ const questionAndAnswerPrompts = `指令：回答以下问题并输出结果，�
 明白就回复好的`;
 
 //生成摘要提示词
-const urlPrompts = `指令：生成生成一下内容的摘要，自行剔除非正文内容。
+const urlPrompts = `指令：生成生成一下内容的摘要，自行剔除非正文内容。输入示例请勿当作上下文。
 输入格式：正文内容
 输出格式：摘要内容
 
@@ -113,7 +113,7 @@ const off = client.listening(async (msg) => {
     if (imgNode || emojiNode) {
       isNeededToPass = true;
     } else if (appmsgNode) {
-      if (appmsgNode[0].url[0]) {
+      if (appmsgNode[0].url && appmsgNode[0].url[0]) {
         const url = appmsgNode[0].url[0];
         const wxUrlResult = await axios.get(url);
         const html = cheerio.load(wxUrlResult.data);
@@ -122,14 +122,16 @@ const off = client.listening(async (msg) => {
           textContent.push(html(element).text().trim());
         });
         // 打印提取的文字内容
-        //console.log("提取内容：\n", textContent.join(""));
         fileredContent = textContent.join("");
         isShareUrl = true;
       } else {
         fileredContent = appmsgNode[0].title[0];
       }
     }
-  } else if (msg.content.includes(" 拍了拍")) {
+  } else if (
+    msg.content.includes(" 拍了拍") ||
+    msg.content.includes(" tickled")
+  ) {
     isNeededToPass = true;
   } else if (fileredContent == `@${userName} 关闭`) {
     client.sendTxt(`好的，${userName}先退下了`, msg.roomId);
@@ -155,17 +157,6 @@ const off = client.listening(async (msg) => {
       type = "QA";
     }
     const content = await callChatGPT(token, senderVXID, fileredContent, type);
-    // if (groupName == "口罩继续带") {
-    //   let wxReply = "";
-    //   if (type == "QA" || type == "URL") {
-    //     wxReply = content;
-    //   } else {
-    //     wxReply = `${sender}:` + content;
-    //   }
-    //   client.sendTxt(wxReply, msg.roomId);
-    // } else {
-    //   client.sendTxt(content, msg.roomId);
-    // }
     if (type == "QA") {
       wxReply = content;
     } else if (type == "URL") {
@@ -178,8 +169,6 @@ const off = client.listening(async (msg) => {
     client.sendTxt(wxReply, msg.roomId);
   } catch (err) {
     client.sendTxt("完蛋出问题了，原因如下：\n" + err, msg.roomId);
-    // client.sendTxt(`${userName}先退下了，修好再回来`, msg.roomId);
-    // off();
   }
 });
 
@@ -236,7 +225,7 @@ async function callChatGPT(token, vxid, msg, type) {
   const currentMessage = [{ role: "user", content: msg }];
   const promptLength = JSON.stringify(promptMessage).length;
   const currentLength = JSON.stringify(currentMessage).length;
-  const splitLength = 20000 - promptLength - currentLength; //24566
+  const splitLength = 10000 - promptLength - currentLength; //24566
   const userContentString = JSON.stringify(userContext);
   const splitMessageString = userContentString.slice(-splitLength);
   const firstUserIndex = splitMessageString.indexOf('{"role":"user",');
@@ -244,7 +233,7 @@ async function callChatGPT(token, vxid, msg, type) {
     firstUserIndex == -1
       ? JSON.parse(splitMessageString)
       : JSON.parse("[" + splitMessageString.slice(firstUserIndex));
-  const submitMessage = [...promptMessage, ...wholeDialog, ...currentMessage];
+  const submitMessage = [...wholeDialog, ...promptMessage, ...currentMessage];
 
   // console.log("splitLength：", splitLength);
   // console.log("userContentString长度：", userContentString.length);
