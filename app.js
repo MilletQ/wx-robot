@@ -133,7 +133,10 @@ const off = client.listening(async (msg) => {
     msg.content.includes(" tickled")
   ) {
     isNeededToPass = true;
-  } else if (fileredContent == `@${userName} 关闭`) {
+  } else if (
+    msg.content == `@${userName} 关闭` ||
+    msg.content == `@${userName} 关闭`
+  ) {
     client.sendTxt(`好的，${userName}先退下了`, msg.roomId);
     isNeededToPass = true;
     off();
