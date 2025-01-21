@@ -4,7 +4,7 @@ const { Wcferry } = require("@zippybee/wechatcore");
 const fs = require("fs");
 const path = require("path");
 const cheerio = require("cheerio");
-
+require("dotenv").config();
 const token = "123";
 //翻译提示词
 const translationPromots = `指令：将输入的中文翻译成英文输出，中文输入时候直接翻译，无需修正，无需优化。将输入的英文翻译成中文输出，若输入的英文有语法或拼写错误请修正后输出，若输入的英文有其他表达方式请列举常用的一种。翻译需要结合上下文语境,输入示例请勿当作上下文。
@@ -228,7 +228,7 @@ async function callChatGPT(token, vxid, msg, type) {
   const currentMessage = [{ role: "user", content: msg }];
   const promptLength = JSON.stringify(promptMessage).length;
   const currentLength = JSON.stringify(currentMessage).length;
-  const splitLength = 10000 - promptLength - currentLength; //24566
+  const splitLength = 3000 - promptLength - currentLength; //24566
   const userContentString = JSON.stringify(userContext);
   const splitMessageString = userContentString.slice(-splitLength);
   const firstUserIndex = splitMessageString.indexOf('{"role":"user",');
@@ -250,13 +250,16 @@ async function callChatGPT(token, vxid, msg, type) {
   try {
     const response = await axios({
       method: "post",
-      url: "http://localhost:5006/v1/chat/completions", // 使用 OpenAI 的实际 API URL
+      //url: "http://localhost:5006/v1/chat/completions", // 使用 OpenAI 的实际 API URL
+      url: `${process.env.URL}`, // 使用 OpenAI 的实际 API URL
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${token}`, // 替换为你的实际 API 密钥
+        //Authorization: `Bearer ${token}`, // 替换为你的实际 API 密钥
+        Authorization: `Bearer ${process.env.API}`, // 替换为你的实际 API 密钥
       },
       data: {
-        model: "gpt-4o-mini",
+        //model: "gpt-4o-mini",
+        model: `${process.env.MODEL}`,
         messages: submitMessage,
         stream: false, // 不启用流式传输
       },
@@ -268,6 +271,8 @@ async function callChatGPT(token, vxid, msg, type) {
       throw new Error(`GPT调用出错: ${err.message},可能是CF验证问题`);
     } else if (err.message.includes("413")) {
       throw new Error(`GPT调用出错: ${err.message},可能是输入的字符串太长了`);
+    } else if (err.message.includes("401")) {
+      throw new Error(`GPT调用出错: ${err.message},可能是GPT凭证过期了`);
     } else {
       throw new Error(`GPT调用出错: ${err.message}`);
     }
